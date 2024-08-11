@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45D7E3152C66F715003E7675 /* TideChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D7E3142C66F715003E7675 /* TideChartView.swift */; };
+		45D7E3172C66F728003E7675 /* MainVisual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D7E3162C66F728003E7675 /* MainVisual.swift */; };
 		45F602372C587013008CC6E5 /* tidesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F602362C587013008CC6E5 /* tidesApp.swift */; };
 		45F602392C587013008CC6E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F602382C587013008CC6E5 /* ContentView.swift */; };
 		45F6023B2C587013008CC6E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F6023A2C587013008CC6E5 /* Assets.xcassets */; };
@@ -17,7 +19,6 @@
 		45F602622C587226008CC6E5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F602612C587226008CC6E5 /* LocationManager.swift */; };
 		45F602642C587241008CC6E5 /* TideService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F602632C587241008CC6E5 /* TideService.swift */; };
 		45F602682C587291008CC6E5 /* TideWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F602672C587291008CC6E5 /* TideWidget.swift */; };
-		45F6026A2C587606008CC6E5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F602692C587606008CC6E5 /* MainView.swift */; };
 		45F6026F2C587981008CC6E5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 45F6026E2C587981008CC6E5 /* Alamofire */; };
 		45F602712C587986008CC6E5 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 45F602702C587986008CC6E5 /* SwiftyJSON */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45D7E3142C66F715003E7675 /* TideChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideChartView.swift; sourceTree = "<group>"; };
+		45D7E3162C66F728003E7675 /* MainVisual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVisual.swift; sourceTree = "<group>"; };
 		45F602332C587013008CC6E5 /* tides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tides.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F602362C587013008CC6E5 /* tidesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tidesApp.swift; sourceTree = "<group>"; };
 		45F602382C587013008CC6E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,7 +57,6 @@
 		45F602612C587226008CC6E5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		45F602632C587241008CC6E5 /* TideService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideService.swift; sourceTree = "<group>"; };
 		45F602672C587291008CC6E5 /* TideWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideWidget.swift; sourceTree = "<group>"; };
-		45F602692C587606008CC6E5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,13 +112,14 @@
 			children = (
 				45F602362C587013008CC6E5 /* tidesApp.swift */,
 				45F602382C587013008CC6E5 /* ContentView.swift */,
+				45D7E3162C66F728003E7675 /* MainVisual.swift */,
 				45F6023A2C587013008CC6E5 /* Assets.xcassets */,
 				45F6023C2C587013008CC6E5 /* tides.entitlements */,
 				45F6023D2C587013008CC6E5 /* Preview Content */,
 				45F602612C587226008CC6E5 /* LocationManager.swift */,
 				45F602632C587241008CC6E5 /* TideService.swift */,
 				45F602672C587291008CC6E5 /* TideWidget.swift */,
-				45F602692C587606008CC6E5 /* MainView.swift */,
+				45D7E3142C66F715003E7675 /* TideChartView.swift */,
 			);
 			path = tides;
 			sourceTree = "<group>";
@@ -292,10 +295,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				45F602392C587013008CC6E5 /* ContentView.swift in Sources */,
-				45F6026A2C587606008CC6E5 /* MainView.swift in Sources */,
 				45F602372C587013008CC6E5 /* tidesApp.swift in Sources */,
+				45D7E3152C66F715003E7675 /* TideChartView.swift in Sources */,
 				45F602622C587226008CC6E5 /* LocationManager.swift in Sources */,
 				45F602682C587291008CC6E5 /* TideWidget.swift in Sources */,
+				45D7E3172C66F728003E7675 /* MainVisual.swift in Sources */,
 				45F602642C587241008CC6E5 /* TideService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

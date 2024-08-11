@@ -9,7 +9,10 @@ struct ContentView: View {
     var body: some View {
         VStack {
             if let tideData = tideService.tideData {
-                Text("Current Tide: \(String(describing: tideData.currentHeight?.height ?? 0))")
+                MainVisual()
+                TideChartView()
+                    .frame(height: 300)
+                    .padding()
             } else if let errorMessage = errorMessage {
                 Text("Error: \(errorMessage)")
                     .foregroundColor(.red)
